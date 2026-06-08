@@ -5,6 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+  background-color:#fff6d8;
+}
+
 nav{
   background-color: #ffffff;
   border-bottom: 1px solid #e5e7eb;
@@ -39,4 +43,177 @@ div.logo{
   font-size:20px;
   font-weight: bold;
   color:#cb0000;
+}
+
+img{
+  width:100%;
+}
+
+.sap{
+  margin-bottom: 1%;
+}
+
+.container{
+  background-color: white;
+  border-radius:20px;
+  width:90%;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom:1%;
+}
+
+.detail{
+  font-size: 15px;
+  margin:1%;
+  line-height: 170%;
+}
+
+.olives{
+  font-size:40px;
+}
+
+.price{
+  font-size:30px;
+  margin-bottom:2.5%;
+}
+
+.maindetail{
+  font-size:20px;
+  margin-bottom:3%;
+}
+
+.card-container{
+  display: flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width:270px;
+  border:1px solid #ececec;
+  border-radius:18px;
+  padding:20px;
+  transition: box-shadow 0.3s, transform 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+} 
+
+.card-image{
+  height:190px;
+  border-radius:14px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:18px;
+}
+
+img{
+  border-radius: 14px;
+}
+
+
+.minititle{
+  margin:1%;
+}
+
+
+.order{
+  background-color: #cb0000;
+  color:white;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 60px;
+  padding:20px;
+  width:20%;
+  margin:10px auto;
+  display:flex;
+  justify-content: center;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+}
+
+.order:hover{
+  background-color:#ed8e3a;
+}
+
+.revew{
+  width:50%;
+  padding:1%;
+}
+
+
+
+
+
+/***모바일!!!!!!**/
+
+
+
+@media (max-width:600px){
+  .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+  }
+
+   nav{
+    flex-direction:column;
+    gap:12px;
+    padding:18px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+  
+  nav ul{
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+}
+  nav ul li a{
+    display:block;
+    padding:6px 0;
+}
+
+
+body{
+  padding-top:180px;
+}
+
+.olives{
+  font-size: 30px;
+}
+
+.price{
+  font-size: 20px;
+}
+
+.maindetail{
+  font-size:15px;
+}
+
+.detail{
+  font-size: 10px;
+}
+
+  .revew{
+    width:100%;
+  }
+
+  .order{
+    width:40%;
+    font-size: 30px;
+    padding:10px;
+  }
+  
 }

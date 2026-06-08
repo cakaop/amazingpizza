@@ -47,9 +47,18 @@ div.logo{
   color:#cb0000;
 }
 
+#services ul li a{
+  text-decoration: none;
+  color:black;
+}
+
+#services ul li a:hover{
+  color:#ed8e3a;
+}
+
 .hero{
   background: #cf0026;
-background: linear-gradient(90deg, rgba(207, 0, 38, 1) 0%, rgba(253, 29, 29, 1) 20%, rgba(252, 176, 69, 1) 100%);
+  background: linear-gradient(90deg, rgba(207, 0, 38, 1) 0%, rgba(253, 29, 29, 1) 20%, rgb(255, 167, 44) 100%);
   color:white;
   padding:100px 20px;
   text-align: center;
@@ -237,13 +246,22 @@ footer p{
   }
 }
 
+
+
+
 /* 모바일 화면 */
+
+
+
 
 @media (max-width:600px){
   nav{
     flex-direction:column;
     gap:12px;
     padding:18px 20px;
+    display: flex;
+    justify-content: center;
+
 }
   
   nav ul{
@@ -257,7 +275,7 @@ footer p{
 }
   
   body{
-    padding-top:150px;
+    padding-top:200px;
 }
   
   .hero{
@@ -277,8 +295,22 @@ footer p{
     margin:40px auto;
 }
   
+  .portfolio-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+
   .card{
-    width:100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    
 }
   
   .contact-form input[type="submit"]{
