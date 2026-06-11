@@ -149,6 +149,10 @@ a{
   padding:1%;
 }
 
+.gango{
+  padding: 20px;
+  width:900px;
+}
 
 
 
@@ -214,6 +218,11 @@ body{
     width:40%;
     font-size: 30px;
     padding:10px;
+  }
+
+  .gango{
+    padding: 10px;
+    width:500px;
   }
   
 }
