@@ -47,6 +47,25 @@ div.logo{
   color:#cb0000;
 }
 
+
+
+/***햄버거***/
+
+
+#menu-toggle{
+  display:none;
+}
+
+.hamburger{
+  font-size:30px;
+  display:none;
+}
+
+/**햅버거*/
+
+
+
+
 #services ul li a{
   text-decoration:none;
   color:black;
@@ -276,10 +295,41 @@ footer p{
   nav ul li a{
     display:block;
     padding:6px 0;
+    color:white;
+}
+
+
+
+
+/***햄버거***/
+
+
+ .hamburger{
+    display:block;
 }
   
+  .menu{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:60px;
+    right:0;
+    width:200px;
+    background-color:#333;
+    padding:20px;
+  }
+  
+  #menu-toggle:checked+.hamburger+.menu{
+    display:flex;
+  }
+
+
+/**햄버거*/
+
+
+  
   body{
-    padding-top:200px;
+    padding-top:90px;
 }
   
   .hero{
