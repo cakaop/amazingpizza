@@ -65,21 +65,21 @@ div.logo{
 
 
 #services ul li a{
-  text-decoration:none;
-  color:rgb(255, 255, 255);
-  padding:10px;
-  margin: 10px 0;
-}
-
-#services ul li{
   background-color:#ed8e3a;
   border-radius: 20px;
   color:white;
   font-weight: bold;
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  padding:10px;
+  margin: 20px 0;
+}
+
+#services ul li{
   display:inline-block;
   width:auto;
   margin-right: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 #services ul li a:hover{
@@ -375,14 +375,18 @@ footer p{
 
   #services li {
     list-style: none;
-  }
-
-
-  #services li {
     font-size: 14px;
     text-align: center;
     padding:2px;
+    margin-right: 5px !important;
+    margin-bottom: 20px !important;
   }
+
+
+
+ 
+
+  
   
   .portfolio-grid{
     display: flex;
