@@ -53,12 +53,12 @@ img{
 
 @media (max-width:600px){
   .m{
-    width:250px;
-    height: 300px;
+    width:200px;
+    height: 250px;
   }
 
   .member{
-    height:400px;
+    height:350px;
   }
 
   h1{
