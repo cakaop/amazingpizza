@@ -48,9 +48,11 @@ div.logo{
 }
 
 #services ul li a{
-  text-decoration: none;
+  text-decoration:none;
   color:black;
 }
+
+
 
 #services ul li a:hover{
   color:#ed8e3a;
@@ -128,12 +130,12 @@ section h2{
 
 .skills span{
   display:inline-block;
-  background-color:#fff7ee;
+  background-color:#ffeeda;
   padding:8px 14px;
   border-radius:20px;
   margin:6px;
   font-size:14px;
-  color:#ed8e3a;
+  color:#ff8922;
 }
 
 #service ul{
@@ -255,13 +257,15 @@ footer p{
 
 
 @media (max-width:600px){
+  
+  
   nav{
     flex-direction:column;
     gap:12px;
     padding:18px 20px;
     display: flex;
     justify-content: center;
-
+    max-width:600px;
 }
   
   nav ul{
@@ -280,6 +284,7 @@ footer p{
   
   .hero{
     padding:80px 20px;
+    width: 600px;
 }
   
   .hero h1{
@@ -289,11 +294,32 @@ footer p{
   .hero-description{
     font-size:16px;
 }
+
+  #about p{
+    font-size: 14px;
+  }
   
   section{
     width:90%;
     margin:40px auto;
 }
+
+  h2{
+    font-size: 26px;
+    text-align: center;
+  }
+
+
+  #services li {
+    list-style: none;
+  }
+
+
+  #services li {
+    font-size: 14px;
+    text-align: center;
+    padding:2px;
+  }
   
   .portfolio-grid{
     display: flex;
