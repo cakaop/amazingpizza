@@ -78,8 +78,8 @@ div.logo{
 }
 
 .hero{
-  background: #cf0026;
-  background: linear-gradient(90deg, rgba(207, 0, 38, 1) 0%, rgba(253, 29, 29, 1) 20%, rgb(255, 167, 44) 100%);
+  background: #cf0000;
+ 
   color:white;
   padding:100px 20px;
   text-align: center;
