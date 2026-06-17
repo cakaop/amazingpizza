@@ -274,12 +274,12 @@ input[type="reset"]:hover{
   }
 
   input[type="text"],input[type="tel"]{
-    width:350px;
+    width:300px;
     font-size: 16px;
   }
 
   textarea{
-    width:350px;
+    width:300px;
     font-size: 16px;
   }
 
